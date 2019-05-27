@@ -6,21 +6,19 @@
 	<script src="tiente.js"></script>
 </head>
 <body>
-	<form>
 		<lable> Amount </lable>
 		<input type="text" id="nhapsotien">
  		<label>  From Curency </label>
- 		<select name="From"> id="from">
- 			<option value="Vietnam"> Việt Nam </option>
- 			<option value="dolamy"> USD </option>
+ 		<select name="From" id="from">
+ 			<option value="Vnd"> Việt Nam </option>
+ 			<option value="$"> USD </option>
  		</select>
  		<lable> To Curency </lable>
- 		<select name="To"> id="to">
- 			<option value="dolamy"> USD </option>
- 			<option value="Vietnam"> Việt Nam </option>
+ 		<select name="To" id="to">
+ 			<option value=" $"> USD </option>
+ 			<option value="Vnđ"> Việt Nam </option>
  		</select>
- 		<button onclick="xuly()">Click me</button>
- 		<p id="ketqua"></p>
- 	</form>
+ 		<button onclick="xuly()"> Convert </button>
+ 		<p id="ketqua"></p> 	
 </body>
 </html>
